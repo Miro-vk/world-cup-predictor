@@ -8,6 +8,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
+from world_cup_predictor.features import add_recent_form_features
+
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PROCESSED_DATA_PATH = PROJECT_ROOT / "data" / "processed" / "matches_with_rankings.csv"
@@ -17,46 +19,6 @@ METADATA_PATH = MODELS_DIR / "match_outcome_metadata.joblib"
 
 TARGET_MAP = {"H": 0, "D": 1, "A": 2}
 TARGET_MAP_INV = {v: k for k, v in TARGET_MAP.items()}
-
-
-def add_recent_form_features(matches: pd.DataFrame, window: int = 5) -> pd.DataFrame:
-	"""Add recent form points for home and away teams from prior matches only."""
-	df = matches.sort_values("date").reset_index(drop=True).copy()
-	team_frames: list[pd.DataFrame] = []
-
-	home_team = df[["date", "home_team", "home_score", "away_score"]].copy()
-	home_team = home_team.rename(columns={"home_team": "team", "home_score": "gf", "away_score": "ga"})
-	home_team["points"] = (home_team["gf"] > home_team["ga"]).astype(int) * 3 + (
-		home_team["gf"] == home_team["ga"]
-	).astype(int)
-	team_frames.append(home_team[["date", "team", "points"]])
-
-	away_team = df[["date", "away_team", "away_score", "home_score"]].copy()
-	away_team = away_team.rename(columns={"away_team": "team", "away_score": "gf", "home_score": "ga"})
-	away_team["points"] = (away_team["gf"] > away_team["ga"]).astype(int) * 3 + (
-		away_team["gf"] == away_team["ga"]
-	).astype(int)
-	team_frames.append(away_team[["date", "team", "points"]])
-
-	team_history = pd.concat(team_frames, ignore_index=True).sort_values(["team", "date"]).reset_index(drop=True)
-	team_history["recent_form_points"] = (
-		team_history.groupby("team")["points"].transform(lambda s: s.shift(1).rolling(window, min_periods=1).sum())
-	)
-
-	home_form = team_history[["date", "team", "recent_form_points"]].rename(
-		columns={"team": "home_team", "recent_form_points": "home_recent_form_points"}
-	)
-	away_form = team_history[["date", "team", "recent_form_points"]].rename(
-		columns={"team": "away_team", "recent_form_points": "away_recent_form_points"}
-	)
-
-	# Merge back on date/team. If a team plays multiple times on the same day, this is a baseline approximation.
-	df = df.merge(home_form, on=["date", "home_team"], how="left")
-	df = df.merge(away_form, on=["date", "away_team"], how="left")
-	df["home_recent_form_points"] = df["home_recent_form_points"].fillna(0.0)
-	df["away_recent_form_points"] = df["away_recent_form_points"].fillna(0.0)
-	df["recent_form_diff"] = df["home_recent_form_points"] - df["away_recent_form_points"]
-	return df
 
 
 def add_target(matches: pd.DataFrame) -> pd.DataFrame:
@@ -108,6 +70,18 @@ def train_model(train_df: pd.DataFrame) -> Pipeline:
 		"away_rank_missing",
 		"neutral",
 		"tournament_importance",
+		"home_recent_wins_5",
+		"home_recent_draws_5",
+		"home_recent_losses_5",
+		"home_recent_goals_for_5",
+		"home_recent_goals_against_5",
+		"home_recent_opp_rank_avg_5",
+		"away_recent_wins_5",
+		"away_recent_draws_5",
+		"away_recent_losses_5",
+		"away_recent_goals_for_5",
+		"away_recent_goals_against_5",
+		"away_recent_opp_rank_avg_5",
 		"home_recent_form_points",
 		"away_recent_form_points",
 		"recent_form_diff",

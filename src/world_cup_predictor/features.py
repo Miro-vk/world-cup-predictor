@@ -10,6 +10,127 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
 
 
+def add_recent_form_features(matches: pd.DataFrame, window: int = 5) -> pd.DataFrame:
+	"""Add last-N team form features from prior matches only.
+
+	Features include wins/draws/losses, goals for/against, average opponent rank,
+	and form points for both home and away teams.
+	"""
+	df = matches.sort_values(["date", "home_team", "away_team"]).reset_index(drop=True).copy()
+	df["match_id"] = df.index
+
+	home_history = pd.DataFrame(
+		{
+			"match_id": df["match_id"],
+			"date": df["date"],
+			"team": df["home_team"],
+			"gf": df["home_score"],
+			"ga": df["away_score"],
+			"opponent_rank": df["away_rank"],
+			"side": "home",
+		}
+	)
+
+	away_history = pd.DataFrame(
+		{
+			"match_id": df["match_id"],
+			"date": df["date"],
+			"team": df["away_team"],
+			"gf": df["away_score"],
+			"ga": df["home_score"],
+			"opponent_rank": df["home_rank"],
+			"side": "away",
+		}
+	)
+
+	team_history = pd.concat([home_history, away_history], ignore_index=True)
+	team_history = team_history.sort_values(["team", "date", "match_id"]).reset_index(drop=True)
+
+	team_history["win"] = (team_history["gf"] > team_history["ga"]).astype(float)
+	team_history["draw_game"] = (team_history["gf"] == team_history["ga"]).astype(float)
+	team_history["loss"] = (team_history["gf"] < team_history["ga"]).astype(float)
+
+	roll = team_history.groupby("team", group_keys=False)
+	team_history["recent_wins_5"] = roll["win"].transform(
+		lambda s: s.shift(1).rolling(window, min_periods=1).sum()
+	)
+	team_history["recent_draws_5"] = roll["draw_game"].transform(
+		lambda s: s.shift(1).rolling(window, min_periods=1).sum()
+	)
+	team_history["recent_losses_5"] = roll["loss"].transform(
+		lambda s: s.shift(1).rolling(window, min_periods=1).sum()
+	)
+	team_history["recent_goals_for_5"] = roll["gf"].transform(
+		lambda s: s.shift(1).rolling(window, min_periods=1).sum()
+	)
+	team_history["recent_goals_against_5"] = roll["ga"].transform(
+		lambda s: s.shift(1).rolling(window, min_periods=1).sum()
+	)
+	team_history["recent_opp_rank_avg_5"] = roll["opponent_rank"].transform(
+		lambda s: s.shift(1).rolling(window, min_periods=1).mean()
+	)
+
+	team_history["recent_form_points"] = team_history["recent_wins_5"] * 3.0 + team_history["recent_draws_5"]
+
+	feature_cols = [
+		"recent_wins_5",
+		"recent_draws_5",
+		"recent_losses_5",
+		"recent_goals_for_5",
+		"recent_goals_against_5",
+		"recent_opp_rank_avg_5",
+		"recent_form_points",
+	]
+
+	home_features = team_history.loc[team_history["side"] == "home", ["match_id", *feature_cols]].rename(
+		columns={
+			"recent_wins_5": "home_recent_wins_5",
+			"recent_draws_5": "home_recent_draws_5",
+			"recent_losses_5": "home_recent_losses_5",
+			"recent_goals_for_5": "home_recent_goals_for_5",
+			"recent_goals_against_5": "home_recent_goals_against_5",
+			"recent_opp_rank_avg_5": "home_recent_opp_rank_avg_5",
+			"recent_form_points": "home_recent_form_points",
+		}
+	)
+
+	away_features = team_history.loc[team_history["side"] == "away", ["match_id", *feature_cols]].rename(
+		columns={
+			"recent_wins_5": "away_recent_wins_5",
+			"recent_draws_5": "away_recent_draws_5",
+			"recent_losses_5": "away_recent_losses_5",
+			"recent_goals_for_5": "away_recent_goals_for_5",
+			"recent_goals_against_5": "away_recent_goals_against_5",
+			"recent_opp_rank_avg_5": "away_recent_opp_rank_avg_5",
+			"recent_form_points": "away_recent_form_points",
+		}
+	)
+
+	df = df.merge(home_features, on="match_id", how="left")
+	df = df.merge(away_features, on="match_id", how="left")
+
+	numeric_cols = [
+		"home_recent_wins_5",
+		"home_recent_draws_5",
+		"home_recent_losses_5",
+		"home_recent_goals_for_5",
+		"home_recent_goals_against_5",
+		"home_recent_opp_rank_avg_5",
+		"home_recent_form_points",
+		"away_recent_wins_5",
+		"away_recent_draws_5",
+		"away_recent_losses_5",
+		"away_recent_goals_for_5",
+		"away_recent_goals_against_5",
+		"away_recent_opp_rank_avg_5",
+		"away_recent_form_points",
+	]
+	df[numeric_cols] = df[numeric_cols].fillna(0.0)
+	df["recent_form_diff"] = df["home_recent_form_points"] - df["away_recent_form_points"]
+
+	return df.drop(columns=["match_id"])
+
+
 def merge_rankings_with_results(
 	results: pd.DataFrame,
 	rankings: pd.DataFrame,
