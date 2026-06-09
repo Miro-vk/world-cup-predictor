@@ -1,0 +1,84 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "schema_version": "1.0",
+  "total_teams": 48,
+  "total_groups": 12,
+  "teams_per_group": 4,
+  "total_matches": 104,
+  "group_stage": {
+    "groups": ["A","B","C","D","E","F","G","H","I","J","K","L"],
+    "format": "single_round_robin",
+    "matches_per_group": 6,
+    "points": { "win": 3, "draw": 1, "loss": 0 },
+    "qualification": {
+      "group_winners": 12,
+      "group_runners_up": 12,
+      "best_third_placed": 8,
+      "round_of_32_teams": 32
+    },
+    "slot_notation": {
+      "1A": "Winner of Group A",
+      "2A": "Runner-up of Group A",
+      "3A": "Third-place team from Group A",
+      "W73": "Winner of Match 73",
+      "L101": "Loser of Match 101"
+    }
+  },
+  "third_place_slots": {
+    "description": "Eight of the twelve third-place teams qualify. Each BEST_3RD slot lists the groups whose third-placed team is eligible to fill that position. The best available (pts→gd→gf) eligible team is assigned greedily.",
+    "M74_away":  ["A","B","C","D","F"],
+    "M77_away":  ["C","D","F","G","H"],
+    "M79_away":  ["C","E","F","H","I"],
+    "M80_away":  ["E","H","I","J","K"],
+    "M81_away":  ["B","E","F","I","J"],
+    "M82_away":  ["A","E","H","I","J"],
+    "M85_away":  ["E","F","G","I","J"],
+    "M87_away":  ["D","E","I","J","L"]
+  },
+  "knockout_stage": {
+    "round_of_32": [
+      {"match": 73, "home": "2A", "away": "2B"},
+      {"match": 74, "home": "1E", "away": "M74_away"},
+      {"match": 75, "home": "1F", "away": "2C"},
+      {"match": 76, "home": "1C", "away": "2F"},
+      {"match": 77, "home": "1I", "away": "M77_away"},
+      {"match": 78, "home": "2E", "away": "2I"},
+      {"match": 79, "home": "1A", "away": "M79_away"},
+      {"match": 80, "home": "1L", "away": "M80_away"},
+      {"match": 81, "home": "1D", "away": "M81_away"},
+      {"match": 82, "home": "1G", "away": "M82_away"},
+      {"match": 83, "home": "2K", "away": "2L"},
+      {"match": 84, "home": "1H", "away": "2J"},
+      {"match": 85, "home": "1B", "away": "M85_away"},
+      {"match": 86, "home": "1J", "away": "2H"},
+      {"match": 87, "home": "1K", "away": "M87_away"},
+      {"match": 88, "home": "2D", "away": "2G"}
+    ],
+    "round_of_16": [
+      {"match": 89, "home": "W73", "away": "W75"},
+      {"match": 90, "home": "W74", "away": "W77"},
+      {"match": 91, "home": "W76", "away": "W78"},
+      {"match": 92, "home": "W79", "away": "W80"},
+      {"match": 93, "home": "W83", "away": "W84"},
+      {"match": 94, "home": "W81", "away": "W82"},
+      {"match": 95, "home": "W86", "away": "W88"},
+      {"match": 96, "home": "W85", "away": "W87"}
+    ],
+    "quarter_finals": [
+      {"match": 97,  "home": "W89", "away": "W90"},
+      {"match": 98,  "home": "W93", "away": "W94"},
+      {"match": 99,  "home": "W91", "away": "W92"},
+      {"match": 100, "home": "W95", "away": "W96"}
+    ],
+    "semi_finals": [
+      {"match": 101, "home": "W97",  "away": "W98"},
+      {"match": 102, "home": "W99",  "away": "W100"}
+    ],
+    "third_place_match": [
+      {"match": 103, "home": "L101", "away": "L102"}
+    ],
+    "final": [
+      {"match": 104, "home": "W101", "away": "W102"}
+    ]
+  }
+}

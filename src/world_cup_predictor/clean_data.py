@@ -16,15 +16,15 @@ RESULTS_REQUIRED_COLUMNS = {
 
 # Keep aliases minimal and explicit to avoid accidental remaps.
 CANONICAL_NAME_ALIASES = {
-	"USA": "United States of America",
-	"US": "United States of America",
-	"U.S.": "United States of America",
-	"United States": "United States of America",
+	"USA": "United States",
+	"US": "United States",
+	"U.S.": "United States",
 	"Korea Republic": "South Korea",
 	"Korea DPR": "North Korea",
 	"IR Iran": "Iran",
 	"Cote d'Ivoire": "Ivory Coast",
 	"Czechia": "Czech Republic",
+	"Curacao": "Curaçao",
 }
 
 

@@ -19,7 +19,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-03-24,Turkey,Netherlands,4,2,FIFA World Cup qualification,Istanbul,Turkey,False,,,,2021-02-18,14,1609.0,,,1,0
 2021-03-25,Bulgaria,Switzerland,1,3,FIFA World Cup qualification,Sofia,Bulgaria,False,2021-02-18,68,1350.0,2021-02-18,16,1593.0,-52,-243.0,0,0
 2021-03-25,Canada,Bermuda,5,1,FIFA World Cup qualification,Orlando,United States,True,2021-02-18,73,1332.0,2021-02-18,169,983.0,96,349.0,1,0
-2021-03-25,Curaçao,Saint Vincent and the Grenadines,5,0,FIFA World Cup qualification,Willemstad,Curaçao,False,,,,,,,,,1,0
+2021-03-25,Curaçao,Saint Vincent and the Grenadines,5,0,FIFA World Cup qualification,Willemstad,Curaçao,False,2021-02-18,76,1313.0,,,,,,1,0
 2021-03-25,England,San Marino,5,0,FIFA World Cup qualification,London,England,False,2021-02-18,4,1670.0,2021-02-18,210,810.0,206,860.0,1,0
 2021-03-25,Gabon,DR Congo,3,0,African Cup of Nations qualification,Franceville,Gabon,False,2021-02-18,86,1280.0,2021-02-18,60,1386.0,-26,-106.0,1,0
 2021-03-25,Germany,Iceland,3,0,FIFA World Cup qualification,Duisburg,Germany,False,2021-02-18,13,1610.0,2021-02-18,46,1438.0,33,172.0,1,0
@@ -49,7 +49,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-03-27,Wales,Mexico,1,0,Friendly,Cardiff,Wales,False,2021-02-18,18,1562.0,2021-02-18,9,1632.0,-9,-70.0,1,0
 2021-03-28,Albania,England,0,2,FIFA World Cup qualification,Tirana,Albania,False,2021-02-18,66,1360.0,2021-02-18,4,1670.0,-62,-310.0,0,0
 2021-03-28,Austria,Faroe Islands,3,1,FIFA World Cup qualification,Vienna,Austria,False,2021-02-18,23,1531.0,2021-02-18,107,1183.0,84,348.0,1,0
-2021-03-28,Cuba,Curaçao,1,2,FIFA World Cup qualification,Guatemala City,Guatemala,True,2021-02-18,180,936.0,,,,,,0,0
+2021-03-28,Cuba,Curaçao,1,2,FIFA World Cup qualification,Guatemala City,Guatemala,True,2021-02-18,180,936.0,2021-02-18,76,1313.0,-104,-377.0,0,0
 2021-03-28,Dominica,Panama,1,2,FIFA World Cup qualification,Santo Domingo,Dominican Republic,True,2021-02-18,184,919.0,2021-02-18,78,1312.0,-106,-393.0,0,0
 2021-03-28,Georgia,Spain,1,2,FIFA World Cup qualification,Tbilisi,Georgia,False,2021-02-18,89,1267.0,2021-02-18,6,1645.0,-83,-378.0,0,0
 2021-03-28,Ghana,São Tomé and Príncipe,3,1,African Cup of Nations qualification,Cape Coast,Ghana,False,2021-02-18,52,1424.0,2021-02-18,187,914.0,135,510.0,1,0
@@ -125,7 +125,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-06-04,Italy,Czech Republic,4,0,Friendly,Bologna,Italy,False,2021-05-27,7,1642.06,2021-05-27,40,1458.81,33,183.25,1,0
 2021-06-04,Spain,Portugal,0,0,Friendly,Madrid,Spain,False,2021-05-27,6,1648.13,2021-05-27,5,1666.12,-1,-17.98999999999978,0,1
 2021-06-05,Aruba,Canada,0,7,FIFA World Cup qualification,Bradenton,United States,True,2021-05-27,205,850.1,2021-05-27,70,1340.56,-135,-490.4599999999999,0,0
-2021-06-05,British Virgin Islands,Curaçao,0,8,FIFA World Cup qualification,Guatemala City,Guatemala,True,2021-05-27,208,826.27,,,,,,0,0
+2021-06-05,British Virgin Islands,Curaçao,0,8,FIFA World Cup qualification,Guatemala City,Guatemala,True,2021-05-27,208,826.27,2021-05-27,76,1323.06,-132,-496.78999999999996,0,0
 2021-06-05,Ivory Coast,Burkina Faso,2,1,Friendly,Abidjan,Ivory Coast,False,,,,2021-05-27,60,1392.9,,,1,0
 2021-06-05,Panama,Anguilla,13,0,FIFA World Cup qualification,Panama City,Panama,False,2021-05-27,78.0,1321.97,2021-05-27,209,805.42,131.0,516.5500000000001,1,0
 2021-06-05,Saudi Arabia,Yemen,3,0,FIFA World Cup qualification,Riyadh,Saudi Arabia,False,2021-05-27,65,1364.39,2021-05-27,145,1070.54,80,293.85000000000014,1,0
@@ -153,7 +153,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-06-07,Uzbekistan,Singapore,5,0,FIFA World Cup qualification,Riyadh,Saudi Arabia,True,2021-05-27,86,1280.99,2021-05-27,159,1020.27,73,260.72,1,0
 2021-06-08,Canada,Suriname,4,0,FIFA World Cup qualification,Bridgeview,United States,True,2021-05-27,70,1340.56,2021-05-27,136,1089.43,66,251.12999999999988,1,0
 2021-06-08,Colombia,Argentina,2,2,FIFA World Cup qualification,Barranquilla,Colombia,False,2021-05-27,15,1600.66,2021-05-27,8,1641.95,-7,-41.289999999999964,0,1
-2021-06-08,Curaçao,Guatemala,0,0,FIFA World Cup qualification,Willemstad,Curaçao,False,,,,2021-05-27,127,1129.3,,,0,1
+2021-06-08,Curaçao,Guatemala,0,0,FIFA World Cup qualification,Willemstad,Curaçao,False,2021-05-27,76,1323.06,2021-05-27,127,1129.3,51,193.76,0,1
 2021-06-08,Czech Republic,Albania,3,1,Friendly,Prague,Czech Republic,False,2021-05-27,40,1458.81,2021-05-27,66,1362.09,26,96.72000000000003,1,0
 2021-06-08,Ecuador,Peru,1,2,FIFA World Cup qualification,Quito,Ecuador,False,2021-05-27,53,1413.01,2021-05-27,27,1511.88,-26,-98.87000000000012,0,0
 2021-06-08,France,Bulgaria,3,0,Friendly,Paris,France,False,2021-05-27,2,1757.3,2021-05-27,71,1339.03,69,418.27,1,0
@@ -182,7 +182,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-06-12,Haiti,Canada,0,1,FIFA World Cup qualification,Port-au-Prince,Haiti,False,2021-05-27,83,1290.62,2021-05-27,70,1340.56,-13,-49.940000000000055,0,0
 2021-06-12,Mexico,Honduras,0,0,Friendly,Atlanta,United States,True,2021-05-27,11,1629.56,2021-05-27,67,1361.21,56,268.3499999999999,0,1
 2021-06-12,Morocco,Burkina Faso,1,0,Friendly,Rabat,Morocco,False,2021-05-27,34,1479.32,2021-05-27,60,1392.9,26,86.41999999999985,1,0
-2021-06-12,Panama,Curaçao,2,1,FIFA World Cup qualification,Panama City,Panama,False,2021-05-27,78.0,1321.97,,,,,,1,0
+2021-06-12,Panama,Curaçao,2,1,FIFA World Cup qualification,Panama City,Panama,False,2021-05-27,78.0,1321.97,2021-05-27,76,1323.06,-2.0,-1.0899999999999181,1,0
 2021-06-12,Russia,Belgium,0,3,UEFA Euro,Saint Petersburg,Russia,False,2021-05-27,38,1462.65,2021-05-27,1,1783.38,-37,-320.73,0,0
 2021-06-12,Wales,Switzerland,1,1,UEFA Euro,Cardiff,Wales,False,2021-05-27,17,1570.36,2021-05-27,13,1606.21,-4,-35.850000000000136,0,1
 2021-06-13,Austria,North Macedonia,3,1,UEFA Euro,Bucharest,Romania,True,2021-05-27,23,1523.42,2021-05-27,62,1374.73,39,148.69000000000005,1,0
@@ -197,7 +197,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-06-14,Spain,Sweden,0,0,UEFA Euro,Seville,Spain,False,2021-05-27,6,1648.13,2021-05-27,18,1569.81,12,78.32000000000016,0,1
 2021-06-15,Australia,Jordan,1,0,FIFA World Cup qualification,Kuwait City,Kuwait,True,2021-05-27,41,1457.49,2021-05-27,95,1251.63,54,205.8599999999999,1,0
 2021-06-15,Canada,Haiti,3,0,FIFA World Cup qualification,Bridgeview,United States,True,2021-05-27,70,1340.56,2021-05-27,83,1290.62,13,49.940000000000055,1,0
-2021-06-15,Curaçao,Panama,0,0,FIFA World Cup qualification,Willemstad,Curaçao,False,,,,2021-05-27,78,1321.97,,,0,1
+2021-06-15,Curaçao,Panama,0,0,FIFA World Cup qualification,Willemstad,Curaçao,False,2021-05-27,76,1323.06,2021-05-27,78,1321.97,2,1.0899999999999181,0,1
 2021-06-15,Germany,France,0,1,UEFA Euro,Munich,Germany,False,2021-05-27,12,1609.12,2021-05-27,2,1757.3,-10,-148.18000000000006,0,0
 2021-06-15,Hungary,Portugal,0,3,UEFA Euro,Budapest,Hungary,False,2021-05-27,37,1468.75,2021-05-27,5,1666.12,-32,-197.3699999999999,0,0
 2021-06-15,Iran,Iraq,1,0,FIFA World Cup qualification,Arad,Iran,False,2021-05-27,31,1499.52,2021-05-27,68.0,1352.82,37.0,146.70000000000005,1,0
@@ -397,7 +397,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-09-09,Paraguay,Venezuela,2,1,FIFA World Cup qualification,Asunción,Paraguay,False,2021-08-12,33,1483.49,2021-08-12,40,1463.3,7,20.190000000000055,1,0
 2021-09-09,Uruguay,Ecuador,1,0,FIFA World Cup qualification,Montevideo,Uruguay,False,2021-08-12,13,1634.63,2021-08-12,55,1405.26,42,229.37000000000012,1,0
 2021-09-30,Egypt,Liberia,2,0,Friendly,Alexandria,Egypt,False,2021-09-16,48,1434.62,2021-09-16,144,1060.93,96,373.6899999999998,1,0
-2021-10-06,Bahrain,Curaçao,4,0,Friendly,Riffa,Bahrain,False,2021-09-16,91,1251.31,,,,,,1,0
+2021-10-06,Bahrain,Curaçao,4,0,Friendly,Riffa,Bahrain,False,2021-09-16,91,1251.31,2021-09-16,79,1310.4,-12,-59.090000000000146,1,0
 2021-10-06,Italy,Spain,1,2,UEFA Nations League,Milan,Italy,False,2021-09-16,5,1735.73,2021-09-16,8,1673.68,3,62.049999999999955,0,0
 2021-10-06,Jordan,Malaysia,4,0,Friendly,Amman,Jordan,False,2021-09-16,93.0,1245.64,2021-09-16,154,1040.81,61.0,204.83000000000015,1,0
 2021-10-06,Morocco,Guinea-Bissau,5,0,FIFA World Cup qualification,Rabat,Morocco,False,2021-09-16,33,1493.23,2021-09-16,105,1186.61,72,306.6200000000001,1,0
@@ -426,7 +426,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2021-10-08,Malawi,Ivory Coast,0,3,FIFA World Cup qualification,Johannesburg,South Africa,True,2021-09-16,115,1159.81,,,,,,0,0
 2021-10-08,Turkey,Norway,1,1,FIFA World Cup qualification,Istanbul,Turkey,False,,,,2021-09-16,39,1461.76,,,0,1
 2021-10-09,Andorra,England,0,5,FIFA World Cup qualification,Andorra la Vella,Andorra,False,2021-09-16,156,1033.27,2021-09-16,3,1755.44,-153,-722.1700000000001,0,0
-2021-10-09,Curaçao,New Zealand,1,2,Friendly,Riffa,Bahrain,True,,,,2021-09-16,121,1149.43,,,0,0
+2021-10-09,Curaçao,New Zealand,1,2,Friendly,Riffa,Bahrain,True,2021-09-16,79,1310.4,2021-09-16,121,1149.43,42,160.97000000000003,0,0
 2021-10-09,Ethiopia,South Africa,1,3,FIFA World Cup qualification,Bahir Dar,Ethiopia,False,2021-09-16,134,1092.74,2021-09-16,73,1348.6,-61,-255.8599999999999,0,0
 2021-10-09,Faroe Islands,Austria,0,2,FIFA World Cup qualification,Tórshavn,Faroe Islands,False,2021-09-16,114,1160.39,2021-09-16,29,1504.82,-85,-344.42999999999984,0,0
 2021-10-09,Ghana,Zimbabwe,3,1,FIFA World Cup qualification,Cape Coast,Ghana,False,2021-09-16,53,1411.3,2021-09-16,113,1160.91,60,250.38999999999987,1,0
@@ -764,7 +764,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-06-03,Belgium,Netherlands,1,4,UEFA Nations League,Brussels,Belgium,False,2022-03-31,2,1827.0,2022-03-31,10,1658.66,8,168.33999999999992,0,0
 2022-06-03,Burkina Faso,Cape Verde,2,0,African Cup of Nations qualification,Marrakech,Morocco,True,2022-03-31,56,1409.61,,,,,,1,0
 2022-06-03,Croatia,Austria,0,3,UEFA Nations League,Osijek,Croatia,False,2022-03-31,16,1621.11,2022-03-31,34,1500.37,18,120.74000000000001,0,0
-2022-06-03,Curaçao,Honduras,0,1,CONCACAF Nations League,Willemstad,Curaçao,False,,,,2022-03-31,82,1289.47,,,0,0
+2022-06-03,Curaçao,Honduras,0,1,CONCACAF Nations League,Willemstad,Curaçao,False,2022-03-31,79,1298.39,2022-03-31,82,1289.47,3,8.920000000000073,0,0
 2022-06-03,France,Denmark,1,2,UEFA Nations League,Paris,France,False,2022-03-31,3,1789.85,2022-03-31,11,1653.6,8,136.25,0,0
 2022-06-03,Ivory Coast,Zambia,3,1,African Cup of Nations qualification,Yamoussoukro,Ivory Coast,False,,,,2022-03-31,87,1267.04,,,1,0
 2022-06-04,Algeria,Uganda,2,0,African Cup of Nations qualification,Algiers,Algeria,False,2022-03-31,44,1461.26,2022-03-31,86,1275.5,42,185.76,1,0
@@ -788,7 +788,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-06-05,United States,Uruguay,0,0,Friendly,Kansas City,United States,False,2022-03-31,15.0,1633.72,2022-03-31,13,1635.73,-2.0,-2.009999999999991,0,1
 2022-06-06,Austria,Denmark,1,2,UEFA Nations League,Vienna,Austria,False,2022-03-31,34,1500.37,2022-03-31,11,1653.6,-23,-153.23000000000002,0,0
 2022-06-06,Croatia,France,1,1,UEFA Nations League,Split,Croatia,False,2022-03-31,16,1621.11,2022-03-31,3,1789.85,-13,-168.74,0,1
-2022-06-06,Honduras,Curaçao,1,2,CONCACAF Nations League,San Pedro Sula,Honduras,False,2022-03-31,82,1289.47,,,,,,0,0
+2022-06-06,Honduras,Curaçao,1,2,CONCACAF Nations League,San Pedro Sula,Honduras,False,2022-03-31,82,1289.47,2022-03-31,79,1298.39,-3,-8.920000000000073,0,0
 2022-06-06,Japan,Brazil,0,1,Friendly,Tokyo,Japan,False,2022-03-31,23,1553.44,2022-03-31,1,1832.69,-22,-279.25,0,0
 2022-06-06,South Korea,Chile,2,0,Friendly,Daejeon,South Korea,False,2022-03-31,29,1519.54,2022-03-31,28,1526.4,-1,-6.860000000000127,1,0
 2022-06-07,Bosnia and Herzegovina,Romania,1,0,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,2022-03-31,59,1388.63,2022-03-31,48,1446.54,-11,-57.909999999999854,1,0
@@ -805,7 +805,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-06-08,Tanzania,Algeria,0,2,African Cup of Nations qualification,Dar es Salaam,Tanzania,False,2022-03-31,130,1123.79,2022-03-31,44,1461.26,-86,-337.47,0,0
 2022-06-08,Uzbekistan,Sri Lanka,3,0,AFC Asian Cup qualification,Namangan,Uzbekistan,False,2022-03-31,83,1286.55,2022-03-31,205,842.93,122,443.62,1,0
 2022-06-08,Wales,Netherlands,1,2,UEFA Nations League,Cardiff,Wales,False,2022-03-31,18,1588.08,2022-03-31,10,1658.66,-8,-70.58000000000015,0,0
-2022-06-09,Canada,Curaçao,4,0,CONCACAF Nations League,Vancouver,Canada,False,2022-03-31,38,1479.0,,,,,,1,0
+2022-06-09,Canada,Curaçao,4,0,CONCACAF Nations League,Vancouver,Canada,False,2022-03-31,38,1479.0,2022-03-31,79,1298.39,41,180.6099999999999,1,0
 2022-06-09,Ethiopia,Egypt,2,0,African Cup of Nations qualification,Lilongwe,Malawi,True,2022-03-31,140,1076.67,2022-03-31,32,1500.67,-108,-424.0,1,0
 2022-06-09,Lesotho,Ivory Coast,0,0,African Cup of Nations qualification,Soweto,South Africa,True,2022-03-31,145,1061.72,,,,,,0,1
 2022-06-09,Morocco,South Africa,2,1,African Cup of Nations qualification,Rabat,Morocco,False,2022-03-31,24,1551.88,2022-03-31,69,1356.01,45,195.87000000000012,1,0
@@ -903,7 +903,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-09-24,Bolivia,Senegal,0,2,Friendly,Orléans,France,True,2022-08-25,81,1298.81,2022-08-25,18,1584.59,-63,-285.78,0,0
 2022-09-24,Colombia,Guatemala,4,1,Friendly,Harrison,United States,True,2022-08-25,17,1604.07,2022-08-25,118,1161.96,101,442.1099999999999,1,0
 2022-09-24,Czech Republic,Portugal,0,4,UEFA Nations League,Prague,Czech Republic,False,2022-08-25,32,1502.9,2022-08-25,9,1678.65,-23,-175.75,0,0
-2022-09-24,Indonesia,Curaçao,3,2,Friendly,Bandung,Indonesia,False,2022-08-25,155,1019.19,,,,,,1,0
+2022-09-24,Indonesia,Curaçao,3,2,Friendly,Bandung,Indonesia,False,2022-08-25,155,1019.19,2022-08-25,84,1293.35,-71,-274.15999999999985,1,0
 2022-09-24,Ivory Coast,Togo,2,1,Friendly,Rouen,France,True,,,,2022-08-25,126,1130.22,,,1,0
 2022-09-24,Mexico,Peru,1,0,Friendly,Pasadena,United States,True,2022-08-25,12,1649.57,2022-08-25,21,1562.24,9,87.32999999999993,1,0
 2022-09-24,Scotland,Republic of Ireland,2,1,UEFA Nations League,Glasgow,Scotland,False,2022-08-25,45,1462.96,2022-08-25,47,1442.48,2,20.480000000000018,1,0
@@ -930,7 +930,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2022-09-27,Ecuador,Japan,0,0,Kirin Challenge Cup,Düsseldorf,Germany,True,2022-08-25,44,1463.74,2022-08-25,24,1554.69,-20,-90.95000000000005,0,1
 2022-09-27,Egypt,Liberia,3,0,Friendly,Alexandria,Egypt,False,2022-08-25,40,1482.63,2022-08-25,150,1051.25,110,431.3800000000001,1,0
 2022-09-27,Ghana,Nicaragua,1,0,Friendly,Lorca,Spain,True,2022-08-25,60,1393.47,2022-08-25,139,1079.18,79,314.28999999999996,1,0
-2022-09-27,Indonesia,Curaçao,2,1,Friendly,Cibinong,Indonesia,False,2022-08-25,155,1019.19,,,,,,1,0
+2022-09-27,Indonesia,Curaçao,2,1,Friendly,Cibinong,Indonesia,False,2022-08-25,155,1019.19,2022-08-25,84,1293.35,-71,-274.15999999999985,1,0
 2022-09-27,Iran,Senegal,1,1,Friendly,Maria Enzersdorf,Austria,True,2022-08-25,22,1558.64,2022-08-25,18,1584.59,-4,-25.949999999999818,0,1
 2022-09-27,Ivory Coast,Guinea,3,1,Friendly,Amiens,France,True,,,,2022-08-25,83,1294.89,,,1,0
 2022-09-27,Mexico,Colombia,2,3,Friendly,Santa Clara,United States,True,2022-08-25,12,1649.57,2022-08-25,17,1604.07,5,45.5,0,0
@@ -1097,7 +1097,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-03-25,Armenia,Turkey,1,2,UEFA Euro qualification,Yerevan,Armenia,False,2022-12-22,95,1231.76,,,,,,0,0
 2023-03-25,Belarus,Switzerland,0,5,UEFA Euro qualification,Novi Sad,Serbia,True,2022-12-22,97,1221.68,2022-12-22,12,1655.02,-85,-433.3399999999999,0,0
 2023-03-25,Croatia,Wales,1,1,UEFA Euro qualification,Split,Croatia,False,2022-12-22,7,1727.62,2022-12-22,28,1530.28,21,197.33999999999992,0,1
-2023-03-25,Curaçao,Canada,0,2,CONCACAF Nations League,Willemstad,Curaçao,False,,,,2022-12-22,53,1431.64,,,0,0
+2023-03-25,Curaçao,Canada,0,2,CONCACAF Nations League,Willemstad,Curaçao,False,2022-12-22,86,1278.64,2022-12-22,53,1431.64,-33,-153.0,0,0
 2023-03-25,Germany,Peru,2,0,Friendly,Mainz,Germany,False,2022-12-22,14,1646.91,2022-12-22,21,1564.3,7,82.61000000000013,1,0
 2023-03-25,Montserrat,Haiti,0,4,CONCACAF Nations League,Lookout,Montserrat,False,2022-12-22,179,940.78,2022-12-22,87,1269.07,-92,-328.28999999999996,0,0
 2023-03-25,Morocco,Brazil,2,1,Friendly,Tangier,Morocco,False,2022-12-22,11,1672.35,2022-12-22,1,1840.77,-10,-168.42000000000007,1,0
@@ -1118,7 +1118,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-03-27,Republic of Ireland,France,0,1,UEFA Euro qualification,Dublin,Republic of Ireland,False,2022-12-22,48,1438.59,2022-12-22,3,1823.39,-45,-384.8000000000002,0,0
 2023-03-27,Sweden,Azerbaijan,5,0,UEFA Euro qualification,Stockholm,Sweden,False,2022-12-22,23,1558.45,2022-12-22,121,1151.82,98,406.6300000000001,1,0
 2023-03-27,United States,El Salvador,1,0,CONCACAF Nations League,Orlando,United States,False,2022-12-22,13.0,1652.74,2022-12-22,74,1326.86,61.0,325.8800000000001,1,0
-2023-03-28,Argentina,Curaçao,7,0,Friendly,Santiago del Estero,Argentina,False,2022-12-22,2,1838.38,,,,,,1,0
+2023-03-28,Argentina,Curaçao,7,0,Friendly,Santiago del Estero,Argentina,False,2022-12-22,2,1838.38,2022-12-22,86,1278.64,84,559.74,1,0
 2023-03-28,Australia,Ecuador,1,2,Friendly,Melbourne,Australia,False,2022-12-22,27,1533.97,2022-12-22,41,1477.32,14,56.65000000000009,0,0
 2023-03-28,Canada,Honduras,4,1,CONCACAF Nations League,Toronto,Canada,False,2022-12-22,53,1431.64,2022-12-22,81,1300.78,28,130.86000000000013,1,0
 2023-03-28,Comoros,Ivory Coast,0,2,African Cup of Nations qualification,Moroni,Comoros,False,2022-12-22,129,1123.18,,,,,,0,0
@@ -1149,7 +1149,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-06-11,Uzbekistan,Oman,3,0,CAFA Nations Cup,Tashkent,Uzbekistan,False,2023-04-06,74,1318.36,2023-04-06,73,1333.54,-1,-15.180000000000064,1,0
 2023-06-12,Germany,Ukraine,3,3,Friendly,Bremen,Germany,False,2023-04-06,14,1647.42,2023-04-06,30,1530.04,16,117.38000000000011,0,1
 2023-06-12,Morocco,Cape Verde,0,0,Friendly,Rabat,Morocco,False,2023-04-06,11,1677.79,,,,,,0,1
-2023-06-13,Curaçao,Costa Rica,0,0,Friendly,Fort Lauderdale,United States,True,,,,2023-04-06,39,1491.12,,,0,1
+2023-06-13,Curaçao,Costa Rica,0,0,Friendly,Fort Lauderdale,United States,True,2023-04-06,88,1272.26,2023-04-06,39,1491.12,-49,-218.8599999999999,0,1
 2023-06-13,Iran,Afghanistan,6,1,CAFA Nations Cup,Bishkek,Kyrgyzstan,True,2023-04-06,24,1553.23,2023-04-06,155,1023.04,131,530.19,1,0
 2023-06-14,DR Congo,Uganda,1,0,Friendly,Douala,Cameroon,True,2023-04-06,70,1338.61,2023-04-06,89,1257.3,19,81.30999999999995,1,0
 2023-06-14,Guinea,Egypt,1,2,African Cup of Nations qualification,Marrakech,Morocco,True,2023-04-06,79,1305.92,2023-04-06,35,1500.67,-44,-194.75,0,0
@@ -1164,7 +1164,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-06-15,United States,Mexico,3,0,CONCACAF Nations League,Las Vegas,United States,False,2023-04-06,13.0,1653.77,2023-04-06,15,1631.87,2.0,21.90000000000009,1,0
 2023-06-16,Andorra,Switzerland,1,2,UEFA Euro qualification,Andorra la Vella,Andorra,False,2023-04-06,153,1030.52,2023-04-06,12,1664.24,-141,-633.72,0,0
 2023-06-16,Colombia,Iraq,1,0,Friendly,Valencia,Spain,True,2023-04-06,17,1617.08,2023-04-06,67.0,1347.84,50.0,269.24,1,0
-2023-06-16,Curaçao,Saint Kitts and Nevis,1,1,Gold Cup qualification,Fort Lauderdale,United States,True,,,,,,,,,0,1
+2023-06-16,Curaçao,Saint Kitts and Nevis,1,1,Gold Cup qualification,Fort Lauderdale,United States,True,2023-04-06,88,1272.26,,,,,,0,1
 2023-06-16,Gibraltar,France,0,3,UEFA Euro qualification,Faro-Loulé,Portugal,True,2023-04-06,201,854.72,2023-04-06,2,1838.45,-199,-983.73,0,0
 2023-06-16,Kyrgyzstan,Iran,1,5,CAFA Nations Cup,Bishkek,Kyrgyzstan,False,,,,2023-04-06,24,1553.23,,,0,0
 2023-06-16,Latvia,Turkey,2,3,UEFA Euro qualification,Riga,Latvia,False,2023-04-06,132,1110.55,,,,,,0,0
@@ -1257,7 +1257,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-09-07,Panama,Martinique,3,0,CONCACAF Nations League,Panama City,Panama,False,2023-07-20,45.0,1453.94,,,,,,1,0
 2023-09-07,Paraguay,Peru,0,0,FIFA World Cup qualification,Ciudad del Este,Paraguay,False,2023-07-20,49,1442.64,2023-07-20,21,1561.2,-28,-118.55999999999995,0,1
 2023-09-07,Qatar,Kenya,1,2,Friendly,Al Wakrah,Qatar,False,2023-07-20,59,1395.57,2023-07-20,105,1191.07,46,204.5,0,0
-2023-09-07,Trinidad and Tobago,Curaçao,1,0,CONCACAF Nations League,Port of Spain,Trinidad and Tobago,False,2023-07-20,102,1199.74,,,,,,1,0
+2023-09-07,Trinidad and Tobago,Curaçao,1,0,CONCACAF Nations League,Port of Spain,Trinidad and Tobago,False,2023-07-20,102,1199.74,2023-07-20,88,1267.87,-14,-68.12999999999988,1,0
 2023-09-07,Tunisia,Botswana,3,0,African Cup of Nations qualification,Radès,Tunisia,False,2023-07-20,31,1516.66,2023-07-20,147,1054.31,116,462.35000000000014,1,0
 2023-09-07,Wales,South Korea,0,0,Friendly,Cardiff,Wales,False,2023-07-20,35,1506.04,2023-07-20,28,1529.3,-7,-23.25999999999999,0,1
 2023-09-08,Bosnia and Herzegovina,Liechtenstein,2,1,UEFA Euro qualification,Zenica,Bosnia and Herzegovina,False,2023-07-20,62,1381.1,2023-07-20,200,848.82,138,532.2799999999999,1,0
@@ -1284,7 +1284,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-09-09,United States,Uzbekistan,3,0,Friendly,St. Louis,United States,False,2023-07-20,11.0,1674.48,2023-07-20,74.0,1327.58,63.0,346.9000000000001,1,0
 2023-09-10,Guatemala,Panama,1,1,CONCACAF Nations League,Guatemala City,Guatemala,False,2023-07-20,107,1186.71,2023-07-20,45,1453.94,-62,-267.23,0,1
 2023-09-10,Hungary,Czech Republic,1,1,Friendly,Budapest,Hungary,False,2023-07-20,36,1504.57,2023-07-20,37,1503.69,1,0.8799999999998818,0,1
-2023-09-10,Martinique,Curaçao,1,0,CONCACAF Nations League,Fort-de-France,Martinique,False,,,,,,,,,1,0
+2023-09-10,Martinique,Curaçao,1,0,CONCACAF Nations League,Fort-de-France,Martinique,False,,,,2023-07-20,88,1267.87,,,1,0
 2023-09-10,Republic of Ireland,Netherlands,1,2,UEFA Euro qualification,Dublin,Republic of Ireland,False,2023-07-20,53,1426.26,2023-07-20,7,1731.23,-46,-304.97,0,0
 2023-09-10,Thailand,Iraq,2,2,King's Cup,Chiang Mai,Thailand,False,2023-07-20,113,1174.37,2023-07-20,70.0,1345.21,-43.0,-170.84000000000015,0,1
 2023-09-10,Togo,Cape Verde,3,2,African Cup of Nations qualification,Lomé,Togo,False,2023-07-20,122,1140.88,,,,,,1,0
@@ -1329,7 +1329,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-10-12,Suriname,Haiti,1,1,CONCACAF Nations League,Paramaribo,Suriname,False,2023-09-21,145,1063.06,2023-09-21,87,1270.76,-58,-207.70000000000005,0,1
 2023-10-12,Sweden,Moldova,3,1,Friendly,Stockholm,Sweden,False,2023-09-21,23,1538.84,2023-09-21,159,1010.1,136,528.7399999999999,1,0
 2023-10-13,Austria,Belgium,2,3,UEFA Euro qualification,Vienna,Austria,False,2023-09-21,25,1537.36,2023-09-21,5,1792.64,-20,-255.2800000000002,0,0
-2023-10-13,Curaçao,Panama,1,2,CONCACAF Nations League,Willemstad,Curaçao,False,,,,2023-09-21,45,1452.25,,,0,0
+2023-10-13,Curaçao,Panama,1,2,CONCACAF Nations League,Willemstad,Curaçao,False,2023-09-21,90,1259.4,2023-09-21,45,1452.25,-45,-192.8499999999999,0,0
 2023-10-13,DR Congo,New Zealand,1,1,Friendly,Murcia,Spain,True,2023-09-21,64,1369.59,2023-06-29,103,1199.04,39,170.54999999999995,0,1
 2023-10-13,England,Australia,1,0,Friendly,London,England,False,2023-09-21,4,1794.34,2023-09-21,27,1531.72,23,262.6199999999999,1,0
 2023-10-13,Iraq,Qatar,0,0,Friendly,Amman,Jordan,True,2023-09-21,69.0,1347.38,2023-09-21,61,1395.57,-8.0,-48.18999999999983,0,1
@@ -1360,7 +1360,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-10-17,Angola,DR Congo,0,0,Friendly,Setúbal,Portugal,True,2023-09-21,117,1167.7,2023-09-21,64,1369.59,-53,-201.88999999999987,0,1
 2023-10-17,Australia,New Zealand,2,0,Soccer Ashes,Brentford,England,True,2023-09-21,27,1531.72,2023-06-29,103,1199.04,76,332.68000000000006,1,0
 2023-10-17,Cape Verde,Comoros,1,2,Friendly,Fos-sur-Mer,Cape Verde,False,,,,2023-09-21,129,1118.62,,,0,0
-2023-10-17,Curaçao,Trinidad and Tobago,5,3,CONCACAF Nations League,Willemstad,Curaçao,False,,,,2023-09-21,98.0,1217.24,,,1,0
+2023-10-17,Curaçao,Trinidad and Tobago,5,3,CONCACAF Nations League,Willemstad,Curaçao,False,2023-09-21,90,1259.4,2023-09-21,98.0,1217.24,8.0,42.16000000000008,1,0
 2023-10-17,Ecuador,Colombia,0,0,FIFA World Cup qualification,Quito,Ecuador,False,2023-09-21,38,1497.66,2023-09-21,16,1629.6,-22,-131.93999999999983,0,1
 2023-10-17,England,Italy,3,1,UEFA Euro qualification,London,England,False,2023-09-21,4,1794.34,2023-09-21,9,1727.37,5,66.97000000000003,1,0
 2023-10-17,France,Scotland,4,1,Friendly,Lille,France,False,2023-09-21,2,1840.76,2023-09-21,31,1522.67,29,318.0899999999999,1,0
@@ -1385,7 +1385,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-11-16,Chile,Paraguay,0,0,FIFA World Cup qualification,Santiago,Chile,False,2023-10-26,37,1503.81,2023-10-26,53,1436.96,16,66.84999999999991,0,1
 2023-11-16,Colombia,Brazil,2,1,FIFA World Cup qualification,Barranquilla,Colombia,False,2023-10-26,17,1626.6,2023-10-26,3,1812.2,-14,-185.60000000000014,1,0
 2023-11-16,Costa Rica,Panama,0,3,CONCACAF Nations League,San José,Costa Rica,False,2023-10-26,46,1452.1,2023-10-26,44,1461.09,-2,-8.990000000000009,0,0
-2023-11-16,Curaçao,El Salvador,1,1,Friendly,Willemstad,Curaçao,False,,,,2023-10-26,77,1307.0,,,0,1
+2023-11-16,Curaçao,El Salvador,1,1,Friendly,Willemstad,Curaçao,False,2023-10-26,89,1261.62,2023-10-26,77,1307.0,-12,-45.38000000000011,0,1
 2023-11-16,Cyprus,Spain,1,3,UEFA Euro qualification,Limassol,Cyprus,False,2023-10-26,124,1141.27,2023-10-26,8,1725.97,-116,-584.7,0,0
 2023-11-16,Egypt,Djibouti,6,0,FIFA World Cup qualification,Cairo,Egypt,False,2023-10-26,35,1511.95,2023-10-26,189,889.2,154,622.75,1,0
 2023-11-16,Estonia,Austria,0,2,UEFA Euro qualification,Tallinn,Estonia,False,2023-10-26,118,1159.33,2023-10-26,25,1535.41,-93,-376.08000000000015,0,0
@@ -1427,7 +1427,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2023-11-19,Spain,Georgia,3,1,UEFA Euro qualification,Valladolid,Spain,False,2023-10-26,8,1725.97,2023-10-26,76,1312.14,68,413.8299999999999,1,0
 2023-11-19,Sudan,DR Congo,1,0,FIFA World Cup qualification,Benghazi,Libya,True,2023-10-26,130,1109.22,2023-10-26,65,1366.18,-65,-256.96000000000004,1,0
 2023-11-19,Sweden,Estonia,2,0,UEFA Euro qualification,Stockholm,Sweden,False,2023-10-26,23,1545.76,2023-10-26,118,1159.33,95,386.43000000000006,1,0
-2023-11-20,Curaçao,El Salvador,1,1,Friendly,Willemstad,Curaçao,False,,,,2023-10-26,77,1307.0,,,0,1
+2023-11-20,Curaçao,El Salvador,1,1,Friendly,Willemstad,Curaçao,False,2023-10-26,89,1261.62,2023-10-26,77,1307.0,-12,-45.38000000000011,0,1
 2023-11-20,Czech Republic,Moldova,3,0,UEFA Euro qualification,Olomouc,Czech Republic,False,2023-10-26,41,1489.72,2023-10-26,157,1018.45,116,471.27,1,0
 2023-11-20,Gambia,Ivory Coast,0,2,FIFA World Cup qualification,Dar es Salaam,Tanzania,True,2022-08-25,124,1137.47,,,,,,0,0
 2023-11-20,North Macedonia,England,1,1,UEFA Euro qualification,Skopje,North Macedonia,False,2023-10-26,66,1358.41,2023-10-26,4,1807.88,-62,-449.47,0,1
@@ -1637,7 +1637,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-06-04,Portugal,Finland,4,2,Friendly,Lisbon,Portugal,False,2024-04-04,6,1748.11,2024-04-04,61,1394.44,55,353.66999999999985,1,0
 2024-06-04,Switzerland,Estonia,4,0,Friendly,Lucerne,Switzerland,False,2024-04-04,19,1616.41,2024-04-04,123,1141.13,104,475.28,1,0
 2024-06-05,Belgium,Montenegro,2,0,Friendly,Brussels,Belgium,False,2024-04-04,3,1795.23,2024-04-04,70,1351.72,67,443.51,1,0
-2024-06-05,Curaçao,Barbados,4,1,FIFA World Cup qualification,Willemstad,Curaçao,False,,,,2024-04-04,177,943.8,,,1,0
+2024-06-05,Curaçao,Barbados,4,1,FIFA World Cup qualification,Willemstad,Curaçao,False,2024-04-04,91,1262.48,2024-04-04,177,943.8,86,318.68000000000006,1,0
 2024-06-05,Denmark,Sweden,2,1,Friendly,Copenhagen,Denmark,False,2024-04-04,21,1602.72,2024-04-04,27,1531.68,6,71.03999999999996,1,0
 2024-06-05,France,Luxembourg,3,0,Friendly,Metz,France,False,2024-04-04,2,1840.59,2024-04-04,87,1277.94,85,562.6499999999999,1,0
 2024-06-05,Mexico,Uruguay,0,4,Friendly,Denver,United States,True,2024-04-04,14,1661.11,2024-04-04,15,1659.39,1,1.7199999999998,0,0
@@ -1668,7 +1668,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-06-07,Nigeria,South Africa,1,1,FIFA World Cup qualification,Uyo,Nigeria,False,2024-04-04,30,1520.27,2024-04-04,59,1407.67,29,112.59999999999991,0,1
 2024-06-07,Peru,Paraguay,0,0,Friendly,Lima,Peru,False,2024-04-04,32,1515.82,2024-04-04,56,1430.73,24,85.08999999999992,0,1
 2024-06-07,Scotland,Finland,2,2,Friendly,Glasgow,Scotland,False,2024-04-04,39,1497.46,2024-04-04,61,1394.44,22,103.01999999999998,0,1
-2024-06-08,Aruba,Curaçao,0,2,FIFA World Cup qualification,Oranjestad,Aruba,False,2024-04-04,193,875.82,,,,,,0,0
+2024-06-08,Aruba,Curaçao,0,2,FIFA World Cup qualification,Oranjestad,Aruba,False,2024-04-04,193,875.82,2024-04-04,91,1262.48,-102,-386.65999999999997,0,0
 2024-06-08,Belgium,Luxembourg,3,0,Friendly,Brussels,Belgium,False,2024-04-04,3,1795.23,2024-04-04,87,1277.94,84,517.29,1,0
 2024-06-08,Cameroon,Cape Verde,4,1,FIFA World Cup qualification,Yaoundé,Cameroon,False,2024-04-04,51,1452.59,,,,,,1,0
 2024-06-08,Denmark,Norway,3,1,Friendly,Brondbyvester,Denmark,False,2024-04-04,21,1602.72,2024-04-04,47,1467.51,26,135.21000000000004,1,0
@@ -1820,7 +1820,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-09-06,Morocco,Gabon,4,1,African Cup of Nations qualification,Agadir,Morocco,False,2024-07-18,14,1669.44,2024-07-18,83,1288.45,69,380.99,1,0
 2024-09-06,Peru,Colombia,1,1,FIFA World Cup qualification,Lima,Peru,False,2024-07-18,42,1489.68,2024-07-18,9,1727.32,-33,-237.63999999999987,0,1
 2024-09-06,Puerto Rico,Haiti,1,4,CONCACAF Nations League,Mayagüez,Puerto Rico,False,2024-07-18,157,1020.22,2024-07-18,85,1274.46,-72,-254.24,0,0
-2024-09-06,Saint Lucia,Curaçao,2,1,CONCACAF Nations League,Saint George's,Grenada,True,,,,,,,,,1,0
+2024-09-06,Saint Lucia,Curaçao,2,1,CONCACAF Nations League,Saint George's,Grenada,True,,,,2024-07-18,86,1272.71,,,1,0
 2024-09-06,Senegal,Burkina Faso,1,1,African Cup of Nations qualification,Diamniadio,Senegal,False,2024-07-18,19,1623.34,2024-07-18,67,1375.16,48,248.17999999999984,0,1
 2024-09-06,Slovenia,Austria,1,1,UEFA Nations League,Ljubljana,Slovenia,False,2024-07-18,52,1457.06,2024-07-18,22,1591.56,-30,-134.5,0,1
 2024-09-06,South Africa,Uganda,2,2,African Cup of Nations qualification,Johannesburg,South Africa,False,2024-07-18,57,1415.15,2024-07-18,95,1242.96,38,172.19000000000005,0,1
@@ -1838,7 +1838,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-09-08,Sweden,Estonia,3,0,UEFA Nations League,Stockholm,Sweden,False,2024-07-18,29,1522.19,2024-07-18,123,1146.47,94,375.72,1,0
 2024-09-08,Switzerland,Spain,1,4,UEFA Nations League,Geneva,Switzerland,False,2024-07-18,15,1654.1,2024-07-18,3,1835.67,-12,-181.57000000000016,0,0
 2024-09-09,Burundi,Senegal,0,1,African Cup of Nations qualification,Lilongwe,Malawi,True,2024-07-18,139,1091.24,2024-07-18,19,1623.34,-120,-532.0999999999999,0,0
-2024-09-09,Curaçao,Saint Martin,4,0,CONCACAF Nations League,Saint George's,Grenada,True,,,,,,,,,1,0
+2024-09-09,Curaçao,Saint Martin,4,0,CONCACAF Nations League,Saint George's,Grenada,True,2024-07-18,86,1272.71,,,,,,1,0
 2024-09-09,Ethiopia,DR Congo,0,2,African Cup of Nations qualification,Dar es Salaam,Tanzania,True,2024-07-18,143,1066.16,2024-07-18,60,1400.93,-83,-334.77,0,0
 2024-09-09,France,Belgium,2,0,UEFA Nations League,Décines-Charpieu,France,False,2024-07-18,2,1854.91,2024-07-18,6,1772.44,4,82.47000000000003,1,0
 2024-09-09,Haiti,Sint Maarten,6,0,CONCACAF Nations League,Mayagüez,Puerto Rico,True,2024-07-18,85,1274.46,,,,,,1,0
@@ -1893,7 +1893,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-10-11,Bosnia and Herzegovina,Germany,1,2,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,2024-09-19,75,1332.39,2024-09-19,13,1692.19,-62,-359.79999999999995,0,0
 2024-10-11,Czech Republic,Albania,2,0,UEFA Nations League,Prague,Czech Republic,False,2024-09-19,46,1473.19,2024-09-19,67,1377.91,21,95.27999999999997,1,0
 2024-10-11,Egypt,Mauritania,2,0,African Cup of Nations qualification,Cairo,Egypt,False,2024-09-19,31,1515.64,2024-09-19,112,1179.04,81,336.60000000000014,1,0
-2024-10-11,Grenada,Curaçao,0,0,CONCACAF Nations League,Gros Islet,Saint Lucia,True,2024-09-19,173,946.7,,,,,,0,1
+2024-10-11,Grenada,Curaçao,0,0,CONCACAF Nations League,Gros Islet,Saint Lucia,True,2024-09-19,173,946.7,2024-09-19,88,1261.38,-85,-314.68000000000006,0,1
 2024-10-11,Hungary,Netherlands,1,1,UEFA Nations League,Budapest,Hungary,False,2024-09-19,32,1511.06,2024-09-19,7,1759.95,-25,-248.8900000000001,0,1
 2024-10-11,Ivory Coast,Sierra Leone,4,1,African Cup of Nations qualification,San-Pédro,Ivory Coast,False,,,,2024-09-19,125,1134.26,,,1,0
 2024-10-11,New Zealand,Tahiti,3,0,FIFA World Cup qualification,Port Vila,Vanuatu,True,2023-06-29,103,1199.04,2024-09-19,158,1016.83,55,182.20999999999992,1,0
@@ -1914,7 +1914,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-10-14,Aruba,Haiti,3,5,CONCACAF Nations League,Oranjestad,Aruba,False,2024-09-19,194,868.4,2024-09-19,86,1278.56,-108,-410.15999999999997,0,0
 2024-10-14,Belgium,France,1,2,UEFA Nations League,Leuven,Belgium,False,2024-09-19,6,1768.14,2024-09-19,2,1851.92,-4,-83.77999999999997,0,0
 2024-10-14,Bosnia and Herzegovina,Hungary,0,2,UEFA Nations League,Zenica,Bosnia and Herzegovina,False,2024-09-19,75,1332.39,2024-09-19,32,1511.06,-43,-178.66999999999985,0,0
-2024-10-14,Curaçao,Grenada,1,0,CONCACAF Nations League,Gros Islet,Saint Lucia,True,,,,2024-09-19,173,946.7,,,1,0
+2024-10-14,Curaçao,Grenada,1,0,CONCACAF Nations League,Gros Islet,Saint Lucia,True,2024-09-19,88,1261.38,2024-09-19,173,946.7,85,314.68000000000006,1,0
 2024-10-14,Estonia,Sweden,0,3,UEFA Nations League,Tallinn,Estonia,False,2024-09-19,122,1140.39,2024-09-19,28,1528.18,-94,-387.78999999999996,0,0
 2024-10-14,Germany,Netherlands,1,0,UEFA Nations League,Munich,Germany,False,2024-09-19,13,1692.19,2024-09-19,7,1759.95,-6,-67.75999999999999,1,0
 2024-10-14,Iceland,Turkey,2,4,UEFA Nations League,Reykjavík,Iceland,False,2024-09-19,71,1355.75,,,,,,0,0
@@ -1967,7 +1967,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-11-14,Venezuela,Brazil,1,1,FIFA World Cup qualification,Maturín,Venezuela,False,2024-09-19,40,1488.56,2024-09-19,5,1772.02,-35,-283.46000000000004,0,1
 2024-11-15,Angola,Ghana,1,1,African Cup of Nations qualification,Talatona,Angola,False,2024-09-19,85,1281.09,2024-09-19,70,1360.43,-15,-79.34000000000015,0,1
 2024-11-15,Cape Verde,Egypt,1,1,African Cup of Nations qualification,Praia,Cape Verde,False,,,,2024-09-19,31,1515.64,,,0,1
-2024-11-15,Curaçao,Saint Martin,5,0,CONCACAF Nations League,Willemstad,Curaçao,False,,,,,,,,,1,0
+2024-11-15,Curaçao,Saint Martin,5,0,CONCACAF Nations League,Willemstad,Curaçao,False,2024-09-19,88,1261.38,,,,,,1,0
 2024-11-15,Denmark,Spain,1,2,UEFA Nations League,Copenhagen,Denmark,False,2024-09-19,20,1621.7,2024-09-19,3,1836.42,-17,-214.72000000000003,0,0
 2024-11-15,Gabon,Morocco,1,5,African Cup of Nations qualification,Franceville,Gabon,False,2024-09-19,84,1292.88,2024-09-19,14,1676.14,-70,-383.26,0,0
 2024-11-15,Honduras,Mexico,2,0,CONCACAF Nations League,San Pedro Sula,Honduras,False,2024-09-19,77,1311.3,2024-09-19,17,1635.66,-60,-324.3600000000001,1,0
@@ -2000,7 +2000,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2024-11-18,Panama,Costa Rica,2,2,CONCACAF Nations League,Panama City,Panama,False,2024-09-19,37.0,1502.55,2024-09-19,50,1466.08,13.0,36.47000000000003,0,1
 2024-11-18,Poland,Scotland,1,2,UEFA Nations League,Warsaw,Poland,False,2024-09-19,30,1525.08,2024-09-19,52,1461.75,22,63.32999999999993,0,0
 2024-11-18,Puerto Rico,Haiti,0,3,CONCACAF Nations League,Mayagüez,Puerto Rico,False,2024-09-19,154,1021.62,2024-09-19,86,1278.56,-68,-256.93999999999994,0,0
-2024-11-18,Saint Lucia,Curaçao,1,4,CONCACAF Nations League,Gros Islet,Saint Lucia,False,,,,,,,,,0,0
+2024-11-18,Saint Lucia,Curaçao,1,4,CONCACAF Nations League,Gros Islet,Saint Lucia,False,,,,2024-09-19,88,1261.38,,,0,0
 2024-11-18,Spain,Switzerland,3,2,UEFA Nations League,Santa Cruz de Tenerife,Spain,False,2024-09-19,3,1836.42,2024-09-19,15,1641.0,12,195.42000000000007,1,0
 2024-11-18,Tunisia,Gambia,0,1,African Cup of Nations qualification,Tunis,Tunisia,False,2024-09-19,36,1504.86,2022-08-25,124,1137.47,88,367.3899999999999,0,0
 2024-11-18,United States,Jamaica,4,2,CONCACAF Nations League,Saint Louis,United States,False,2024-09-19,18.0,1632.19,2024-09-19,61,1402.95,43.0,229.24,1,0
@@ -2044,7 +2044,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-01-22,Uzbekistan,Jordan,0,0,Friendly,Doha,Qatar,True,2024-09-19,60,1413.06,2024-09-19,68,1377.52,8,35.539999999999964,0,1
 2025-02-08,Chile,Panama,6,1,Friendly,Santiago,Chile,False,2024-09-19,49,1467.98,2024-09-19,37,1502.55,-12,-34.569999999999936,1,0
 2025-03-14,Jordan,North Korea,1,1,Friendly,Amman,Jordan,False,2024-09-19,68.0,1377.52,2024-09-19,111,1183.02,43.0,194.5,0,1
-2025-03-19,Kazakhstan,Curaçao,2,0,Friendly,Antalya,Turkey,True,2024-09-19,109,1193.21,,,,,,1,0
+2025-03-19,Kazakhstan,Curaçao,2,0,Friendly,Antalya,Turkey,True,2024-09-19,109,1193.21,2024-09-19,88,1261.38,-21,-68.17000000000007,1,0
 2025-03-19,Liberia,Tunisia,0,1,FIFA World Cup qualification,Monrovia,Liberia,False,2024-09-19,143,1064.97,2024-09-19,36,1504.86,-107,-439.8899999999999,0,0
 2025-03-20,Australia,Indonesia,5,1,FIFA World Cup qualification,Sydney,Australia,False,2024-09-19,25,1544.3,2024-09-19,129,1124.17,104,420.1299999999999,1,0
 2025-03-20,Austria,Serbia,1,1,UEFA Nations League,Vienna,Austria,False,2024-09-19,22,1580.37,2024-09-19,35.0,1505.08,13.0,75.28999999999996,0,1
@@ -2143,7 +2143,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-06-05,Spain,France,5,4,UEFA Nations League,Stuttgart,Germany,True,2024-09-19,3,1836.42,2024-09-19,2,1851.92,-1,-15.5,1,0
 2025-06-05,United Arab Emirates,Uzbekistan,0,0,FIFA World Cup qualification,Abu Dhabi,United Arab Emirates,False,2024-09-19,69.0,1377.22,2024-09-19,60.0,1413.06,-9.0,-35.83999999999992,0,1
 2025-06-06,Colombia,Peru,0,0,FIFA World Cup qualification,Barranquilla,Colombia,False,2024-09-19,9,1738.72,2024-09-19,43,1483.2,34,255.51999999999998,0,1
-2025-06-06,Curaçao,Saint Lucia,4,0,FIFA World Cup qualification,Willemstad,Curaçao,False,,,,,,,,,1,0
+2025-06-06,Curaçao,Saint Lucia,4,0,FIFA World Cup qualification,Willemstad,Curaçao,False,2024-09-19,88,1261.38,,,,,,1,0
 2025-06-06,Czech Republic,Montenegro,2,0,FIFA World Cup qualification,Plzeň,Czech Republic,False,2024-09-19,46,1473.19,2024-09-19,74,1332.68,28,140.51,1,0
 2025-06-06,Gibraltar,Croatia,0,7,FIFA World Cup qualification,Faro-Loulé,Portugal,True,2024-09-19,198,842.4,2024-09-19,12,1699.6,-186,-857.1999999999999,0,0
 2025-06-06,Hungary,Sweden,0,2,Friendly,Budapest,Hungary,False,2024-09-19,32,1511.06,2024-09-19,28,1528.18,-4,-17.12000000000012,0,0
@@ -2177,7 +2177,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-06-10,Brazil,Paraguay,1,0,FIFA World Cup qualification,São Paulo,Brazil,False,2024-09-19,5,1772.02,2024-09-19,57,1423.98,52,348.03999999999996,1,0
 2025-06-10,Canada,Ivory Coast,0,0,Canadian Shield,Toronto,Canada,False,2024-09-19,38,1502.31,,,,,,0,1
 2025-06-10,England,Senegal,1,3,Friendly,London,England,False,2024-09-19,4,1817.28,2024-09-19,21,1620.87,17,196.41000000000008,0,0
-2025-06-10,Haiti,Curaçao,1,5,FIFA World Cup qualification,Oranjestad,Aruba,True,2024-09-19,86,1278.56,,,,,,0,0
+2025-06-10,Haiti,Curaçao,1,5,FIFA World Cup qualification,Oranjestad,Aruba,True,2024-09-19,86,1278.56,2024-09-19,88,1261.38,2,17.179999999999836,0,0
 2025-06-10,Iran,North Korea,3,0,FIFA World Cup qualification,Tehran,Iran,False,2024-09-19,19,1622.92,2024-09-19,111,1183.02,92,439.9000000000001,1,0
 2025-06-10,Japan,Indonesia,6,0,FIFA World Cup qualification,Suita,Japan,False,2024-09-19,16,1639.6,2024-09-19,129,1124.17,113,515.4299999999998,1,0
 2025-06-10,Jordan,Iraq,0,1,FIFA World Cup qualification,Amman,Jordan,False,2024-09-19,68.0,1377.52,2024-09-19,55.0,1435.9,-13.0,-58.38000000000011,0,0
@@ -2200,17 +2200,17 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-06-15,United States,Trinidad and Tobago,5,0,Gold Cup,San Jose,United States,False,2024-09-19,18.0,1632.19,2024-09-19,101.0,1213.25,83.0,418.94000000000005,1,0
 2025-06-16,Panama,Guadeloupe,5,2,Gold Cup,Carson,United States,True,2024-09-19,37.0,1502.55,,,,,,1,0
 2025-06-17,Canada,Honduras,6,0,Gold Cup,Vancouver,Canada,False,2024-09-19,38,1502.31,2024-09-19,77,1311.3,39,191.01,1,0
-2025-06-17,Curaçao,El Salvador,0,0,Gold Cup,San Jose,United States,True,,,,2024-09-19,80,1307.04,,,0,1
+2025-06-17,Curaçao,El Salvador,0,0,Gold Cup,San Jose,United States,True,2024-09-19,88,1261.38,2024-09-19,80,1307.04,-8,-45.659999999999854,0,1
 2025-06-18,Suriname,Mexico,0,2,Gold Cup,Arlington,United States,True,2024-09-19,138,1094.39,2024-09-19,17,1635.66,-121,-541.27,0,0
 2025-06-19,Trinidad and Tobago,Haiti,1,1,Gold Cup,Houston,United States,True,2024-09-19,101,1213.25,2024-09-19,86,1278.56,-15,-65.30999999999995,0,1
 2025-06-19,United States,Saudi Arabia,1,0,Gold Cup,Austin,United States,False,2024-09-19,18.0,1632.19,2024-09-19,56,1433.16,38.0,199.02999999999997,1,0
 2025-06-20,Guatemala,Panama,0,1,Gold Cup,Austin,United States,True,2024-09-19,107,1200.43,2024-09-19,37,1502.55,-70,-302.1199999999999,0,0
-2025-06-21,Curaçao,Canada,1,1,Gold Cup,Houston,United States,True,,,,2024-09-19,38,1502.31,,,0,1
+2025-06-21,Curaçao,Canada,1,1,Gold Cup,Houston,United States,True,2024-09-19,88,1261.38,2024-09-19,38,1502.31,-50,-240.92999999999984,0,1
 2025-06-22,Mexico,Costa Rica,0,0,Gold Cup,Paradise,United States,True,2024-09-19,17,1635.66,2024-09-19,50,1466.08,33,169.58000000000015,0,1
 2025-06-22,Saudi Arabia,Trinidad and Tobago,1,1,Gold Cup,Paradise,United States,True,2024-09-19,56,1433.16,2024-09-19,101.0,1213.25,45.0,219.91000000000008,0,1
 2025-06-22,United States,Haiti,2,1,Gold Cup,Arlington,United States,False,2024-09-19,18.0,1632.19,2024-09-19,86,1278.56,68.0,353.6300000000001,1,0
 2025-06-24,Canada,El Salvador,2,0,Gold Cup,Houston,United States,True,2024-09-19,38,1502.31,2024-09-19,80,1307.04,42,195.26999999999998,1,0
-2025-06-24,Honduras,Curaçao,2,1,Gold Cup,San Jose,United States,True,2024-09-19,77,1311.3,,,,,,1,0
+2025-06-24,Honduras,Curaçao,2,1,Gold Cup,San Jose,United States,True,2024-09-19,77,1311.3,2024-09-19,88,1261.38,11,49.919999999999845,1,0
 2025-06-24,Panama,Jamaica,4,1,Gold Cup,Austin,United States,True,2024-09-19,37.0,1502.55,2024-09-19,61,1402.95,24.0,99.59999999999991,1,0
 2025-06-28,Mexico,Saudi Arabia,2,0,Gold Cup,Glendale,United States,True,2024-09-19,17,1635.66,2024-09-19,56,1433.16,39,202.5,1,0
 2025-06-28,Panama,Honduras,1,1,Gold Cup,Glendale,United States,True,2024-09-19,37.0,1502.55,2024-09-19,77,1311.3,40.0,191.25,0,1
@@ -2254,7 +2254,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-09-05,South Africa,Lesotho,3,0,FIFA World Cup qualification,Bloemfontein,South Africa,False,2024-09-19,59,1415.07,2024-09-19,153,1034.02,94,381.04999999999995,1,0
 2025-09-05,South Sudan,DR Congo,1,4,FIFA World Cup qualification,Juba,South Sudan,False,2024-09-19,172,967.83,2024-09-19,58,1416.91,-114,-449.08000000000004,0,0
 2025-09-05,Switzerland,Kosovo,4,0,FIFA World Cup qualification,Basel,Switzerland,False,2024-09-19,15,1641.0,2024-09-19,104,1205.96,89,435.03999999999996,1,0
-2025-09-05,Trinidad and Tobago,Curaçao,0,0,FIFA World Cup qualification,Port of Spain,Trinidad and Tobago,False,2024-09-19,101,1213.25,,,,,,0,1
+2025-09-05,Trinidad and Tobago,Curaçao,0,0,FIFA World Cup qualification,Port of Spain,Trinidad and Tobago,False,2024-09-19,101,1213.25,2024-09-19,88,1261.38,-13,-48.13000000000011,0,1
 2025-09-05,Ukraine,France,0,2,FIFA World Cup qualification,Wrocław,Poland,True,2024-09-19,24,1548.29,2024-09-19,2,1851.92,-22,-303.6300000000001,0,0
 2025-09-06,Armenia,Portugal,0,5,FIFA World Cup qualification,Yerevan,Armenia,False,2024-09-19,96,1230.43,2024-09-19,8,1752.14,-88,-521.71,0,0
 2025-09-06,Austria,Cyprus,1,0,FIFA World Cup qualification,Linz,Austria,False,2024-09-19,22,1580.37,2024-09-19,123,1137.06,101,443.30999999999995,1,0
@@ -2284,7 +2284,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-09-09,Cape Verde,Cameroon,1,0,FIFA World Cup qualification,Praia,Cape Verde,False,,,,2024-09-19,53,1458.51,,,1,0
 2025-09-09,Chile,Uruguay,0,0,FIFA World Cup qualification,Santiago,Chile,False,2024-09-19,49,1467.98,2024-09-19,11,1701.34,-38,-233.3599999999999,0,1
 2025-09-09,Costa Rica,Haiti,3,3,FIFA World Cup qualification,San José,Costa Rica,False,2024-09-19,50,1466.08,2024-09-19,86,1278.56,36,187.51999999999998,0,1
-2025-09-09,Curaçao,Bermuda,3,2,FIFA World Cup qualification,Willemstad,Curaçao,False,,,,2024-09-19,170,973.34,,,1,0
+2025-09-09,Curaçao,Bermuda,3,2,FIFA World Cup qualification,Willemstad,Curaçao,False,2024-09-19,88,1261.38,2024-09-19,170,973.34,82,288.0400000000001,1,0
 2025-09-09,DR Congo,Senegal,2,3,FIFA World Cup qualification,Kinshasa,DR Congo,False,2024-09-19,58,1416.91,2024-09-19,21,1620.87,-37,-203.9599999999998,0,0
 2025-09-09,Ecuador,Argentina,1,0,FIFA World Cup qualification,Guayaquil,Ecuador,False,2024-09-19,27,1535.43,2024-09-19,1,1889.02,-26,-353.5899999999999,1,0
 2025-09-09,France,Iceland,2,1,FIFA World Cup qualification,Paris,France,False,2024-09-19,2,1851.92,2024-09-19,71,1355.75,69,496.1700000000001,1,0
@@ -2318,7 +2318,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-10-10,Argentina,Venezuela,1,0,Friendly,Miami Gardens,United States,True,2024-09-19,1,1889.02,2024-09-19,40,1488.56,39,400.46000000000004,1,0
 2025-10-10,Belgium,North Macedonia,0,0,FIFA World Cup qualification,Gent,Belgium,False,2024-09-19,6,1768.14,2024-09-19,72,1351.18,66,416.96000000000004,0,1
 2025-10-10,Canada,Australia,0,1,Friendly,Montreal,Canada,False,2024-09-19,38,1502.31,2024-09-19,25,1544.3,-13,-41.99000000000001,0,0
-2025-10-10,Curaçao,Jamaica,2,0,FIFA World Cup qualification,Willemstad,Curaçao,False,,,,2024-09-19,61,1402.95,,,1,0
+2025-10-10,Curaçao,Jamaica,2,0,FIFA World Cup qualification,Willemstad,Curaçao,False,2024-09-19,88,1261.38,2024-09-19,61,1402.95,-27,-141.56999999999994,1,0
 2025-10-10,El Salvador,Panama,0,1,FIFA World Cup qualification,San Salvador,El Salvador,False,2024-09-19,80,1307.04,2024-09-19,37,1502.55,-43,-195.51,0,0
 2025-10-10,France,Azerbaijan,3,0,FIFA World Cup qualification,Paris,France,False,2024-09-19,2,1851.92,2024-09-19,113,1173.15,111,678.77,1,0
 2025-10-10,Germany,Luxembourg,4,0,FIFA World Cup qualification,Sinsheim,Germany,False,2024-09-19,13,1692.19,2024-09-19,87,1261.95,74,430.24,1,0
@@ -2361,7 +2361,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-10-14,Albania,Jordan,4,2,Friendly,Tirana,Albania,False,2024-09-19,67,1377.91,2024-09-19,68,1377.52,1,0.39000000000010004,1,0
 2025-10-14,Algeria,Uganda,2,1,FIFA World Cup qualification,Tizi Ouzou,Algeria,False,2024-09-19,41,1486.03,2024-09-19,90,1257.64,49,228.38999999999987,1,0
 2025-10-14,Canada,Colombia,0,0,Friendly,Harrison,United States,True,2024-09-19,38,1502.31,2024-09-19,9,1738.72,-29,-236.41000000000008,0,1
-2025-10-14,Curaçao,Trinidad and Tobago,1,1,FIFA World Cup qualification,Willemstad,Curaçao,False,,,,2024-09-19,101.0,1213.25,,,0,1
+2025-10-14,Curaçao,Trinidad and Tobago,1,1,FIFA World Cup qualification,Willemstad,Curaçao,False,2024-09-19,88,1261.38,2024-09-19,101.0,1213.25,13.0,48.13000000000011,0,1
 2025-10-14,DR Congo,Sudan,1,0,FIFA World Cup qualification,Kinshasa,DR Congo,False,2024-09-19,58,1416.91,2024-09-19,120,1154.5,62,262.4100000000001,1,0
 2025-10-14,Iran,Tanzania,2,0,Friendly,Dubai,United Arab Emirates,True,2024-09-19,19,1622.92,2024-09-19,110,1188.24,91,434.68000000000006,1,0
 2025-10-14,Ivory Coast,Kenya,3,0,FIFA World Cup qualification,Ebimpé,Ivory Coast,False,,,,2024-09-19,102,1208.96,,,1,0
@@ -2383,7 +2383,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-10-14,United States,Australia,2,1,Friendly,Denver,United States,False,2024-09-19,18.0,1632.19,2024-09-19,25,1544.3,7.0,87.8900000000001,1,0
 2025-11-12,Tunisia,Mauritania,1,1,Friendly,Radès,Tunisia,False,2024-09-19,36,1504.86,2024-09-19,112,1179.04,76,325.81999999999994,0,1
 2025-11-13,Algeria,Zimbabwe,3,1,Friendly,Jeddah,Saudi Arabia,True,2024-09-19,41,1486.03,2024-09-19,124,1134.99,83,351.03999999999996,1,0
-2025-11-13,Bermuda,Curaçao,0,7,FIFA World Cup qualification,Devonshire Parish,Bermuda,False,2024-09-19,170,973.34,,,,,,0,0
+2025-11-13,Bermuda,Curaçao,0,7,FIFA World Cup qualification,Devonshire Parish,Bermuda,False,2024-09-19,170,973.34,2024-09-19,88,1261.38,-82,-288.0400000000001,0,0
 2025-11-13,Cameroon,DR Congo,0,1,FIFA World Cup qualification,Rabat,Morocco,True,2024-09-19,53,1458.51,2024-09-19,58,1416.91,5,41.59999999999991,0,0
 2025-11-13,Canada,Ecuador,0,0,Friendly,Toronto,Canada,False,2024-09-19,38,1502.31,2024-09-19,27,1535.43,-11,-33.12000000000012,0,1
 2025-11-13,Czech Republic,San Marino,1,0,Friendly,Karviná,Czech Republic,False,2024-09-19,46,1473.19,2024-09-19,210,746.05,164,727.1400000000001,1,0
@@ -2438,7 +2438,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2025-11-18,Haiti,Nicaragua,2,0,FIFA World Cup qualification,Willemstad,Curaçao,True,2024-09-19,86,1278.56,2024-09-19,131,1118.04,45,160.51999999999998,1,0
 2025-11-18,Iran,Uzbekistan,0,0,Al Ain International Cup,Al Ain,United Arab Emirates,True,2024-09-19,19,1622.92,2024-09-19,60.0,1413.06,41.0,209.86000000000013,0,1
 2025-11-18,Iraq,United Arab Emirates,2,1,FIFA World Cup qualification,Basra,Iraq,False,2024-09-19,55.0,1435.9,2024-09-19,69,1377.22,14.0,58.680000000000064,1,0
-2025-11-18,Jamaica,Curaçao,0,0,FIFA World Cup qualification,Kingston,Jamaica,False,2024-09-19,61,1402.95,,,,,,0,1
+2025-11-18,Jamaica,Curaçao,0,0,FIFA World Cup qualification,Kingston,Jamaica,False,2024-09-19,61,1402.95,2024-09-19,88,1261.38,27,141.56999999999994,0,1
 2025-11-18,Japan,Bolivia,3,0,Kirin Cup,Tokyo,Japan,False,2024-09-19,16,1639.6,2024-09-19,83,1293.76,67,345.8399999999999,1,0
 2025-11-18,Kenya,Senegal,0,8,Friendly,Antalya,Turkey,True,2024-09-19,102,1208.96,2024-09-19,21,1620.87,-81,-411.90999999999985,0,0
 2025-11-18,Kosovo,Switzerland,1,1,FIFA World Cup qualification,Pristina,Kosovo,False,2024-09-19,104,1205.96,2024-09-19,15,1641.0,-89,-435.03999999999996,0,1
@@ -2534,7 +2534,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2026-03-27,Australia,Cameroon,1,0,FIFA Series,Sydney,Australia,False,2024-09-19,25,1544.3,2024-09-19,53,1458.51,28,85.78999999999996,1,0
 2026-03-27,Austria,Ghana,5,1,Friendly,Vienna,Austria,False,2024-09-19,22,1580.37,2024-09-19,70,1360.43,48,219.93999999999983,1,0
 2026-03-27,Chile,Cape Verde,4,2,FIFA Series,Auckland,New Zealand,True,2024-09-19,49,1467.98,,,,,,1,0
-2026-03-27,China,Curaçao,2,0,FIFA Series,Sydney,Australia,True,,,,,,,,,1,0
+2026-03-27,China,Curaçao,2,0,FIFA Series,Sydney,Australia,True,,,,2024-09-19,88,1261.38,,,1,0
 2026-03-27,Costa Rica,Jordan,2,2,Friendly,Antalya,Turkey,True,2024-09-19,50,1466.08,2024-09-19,68,1377.52,18,88.55999999999995,0,1
 2026-03-27,England,Uruguay,1,1,Friendly,London,England,False,2024-09-19,4,1817.28,2024-09-19,11,1701.34,7,115.94000000000005,0,1
 2026-03-27,Greece,Paraguay,0,1,Friendly,Athens,Greece,False,2024-09-19,48,1469.18,2024-09-19,57,1423.98,9,45.200000000000045,0,0
@@ -2561,7 +2561,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2026-03-30,Uzbekistan,Venezuela,0,0,FIFA Series,Tashkent,Uzbekistan,False,2024-09-19,60,1413.06,2024-09-19,40,1488.56,-20,-75.5,0,1
 2026-03-31,Algeria,Uruguay,0,0,Friendly,Turin,Italy,True,2024-09-19,41,1486.03,2024-09-19,11,1701.34,-30,-215.30999999999995,0,1
 2026-03-31,Argentina,Zambia,5,0,Friendly,Buenos Aires,Argentina,False,2024-09-19,1,1889.02,2024-09-19,93,1252.79,92,636.23,1,0
-2026-03-31,Australia,Curaçao,5,1,FIFA Series,Melbourne,Australia,False,2024-09-19,25,1544.3,,,,,,1,0
+2026-03-31,Australia,Curaçao,5,1,FIFA Series,Melbourne,Australia,False,2024-09-19,25,1544.3,2024-09-19,88,1261.38,63,282.91999999999985,1,0
 2026-03-31,Austria,South Korea,1,0,Friendly,Vienna,Austria,False,2024-09-19,22,1580.37,2024-09-19,23,1572.61,1,7.759999999999991,1,0
 2026-03-31,Bosnia and Herzegovina,Italy,1,1,FIFA World Cup qualification,Zenica,Bosnia and Herzegovina,False,2024-09-19,75,1332.39,2024-09-19,10,1726.31,-65,-393.91999999999985,0,1
 2026-03-31,Brazil,Croatia,3,1,Friendly,Orlando,United States,True,2024-09-19,5,1772.02,2024-09-19,12,1699.6,7,72.42000000000007,1,0
@@ -2595,7 +2595,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2026-05-29,South Africa,Nicaragua,0,0,Friendly,Johannesburg,South Africa,False,2026-04-01,60,1429.73,2026-04-01,131,1115.13,71,314.5999999999999,0,1
 2026-05-30,Ecuador,Saudi Arabia,2,1,Friendly,Harrison,United States,True,2026-04-01,23,1594.78,2026-04-01,61,1421.43,38,173.3499999999999,1,0
 2026-05-30,Mexico,Australia,1,0,Friendly,Pasadena,United States,True,2026-04-01,15,1681.03,2026-04-01,27,1580.67,12,100.3599999999999,1,0
-2026-05-30,Scotland,Curaçao,4,1,Friendly,Glasgow,Scotland,False,2026-04-01,43,1498.35,,,,,,1,0
+2026-05-30,Scotland,Curaçao,4,1,Friendly,Glasgow,Scotland,False,2026-04-01,43,1498.35,2026-04-01,82,1294.65,39,203.69999999999982,1,0
 2026-05-30,South Korea,Trinidad and Tobago,5,0,Friendly,Provo,United States,True,2026-04-01,25,1588.66,2026-04-01,102.0,1222.94,77.0,365.72,1,0
 2026-05-31,Brazil,Panama,6,2,Friendly,Rio de Janeiro,Brazil,False,2026-04-01,6,1761.16,2026-04-01,33,1540.64,27,220.51999999999998,1,0
 2026-05-31,Cape Verde,Serbia,3,0,Friendly,Lisbon,Portugal,True,2026-04-01,69.0,1366.13,2026-04-01,39.0,1508.65,-30.0,-142.51999999999998,1,0
@@ -2633,7 +2633,7 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,h
 2026-06-06,Bermuda,Cape Verde,3,0,Friendly,East Hartford,United States,True,2026-04-01,166,976.87,2026-04-01,69.0,1366.13,-97.0,-389.2600000000001,1,0
 2026-06-06,Bolivia,Scotland,0,4,Friendly,Harrison,United States,True,2026-04-01,76,1329.42,2026-04-01,43,1498.35,-33,-168.92999999999984,0,0
 2026-06-06,Brazil,Egypt,2,1,Friendly,Cleveland,United States,True,2026-04-01,6,1761.16,2026-04-01,29,1563.24,23,197.92000000000007,1,0
-2026-06-06,Curaçao,Aruba,4,0,Friendly,Willemstad,Curaçao,False,,,,2026-04-01,189,877.3,,,1,0
+2026-06-06,Curaçao,Aruba,4,0,Friendly,Willemstad,Curaçao,False,2026-04-01,82,1294.65,2026-04-01,189,877.3,107,417.35000000000014,1,0
 2026-06-06,England,New Zealand,1,0,Friendly,Tampa,United States,True,2026-04-01,4,1825.97,2026-04-01,85,1281.57,81,544.4000000000001,1,0
 2026-06-06,Jamaica,South Africa,0,1,Friendly,Pachua,Mexico,True,2026-04-01,71,1358.0,2026-04-01,60,1429.73,-11,-71.73000000000002,0,0
 2026-06-06,Panama,Bosnia and Herzegovina,1,1,Friendly,St Louis,United States,True,2026-04-01,33.0,1540.64,2026-04-01,65,1385.84,32.0,154.80000000000018,0,1

@@ -44,6 +44,8 @@ def add_recent_form_features(matches: pd.DataFrame, window: int = 5) -> pd.DataF
 	)
 
 	team_history = pd.concat([home_history, away_history], ignore_index=True)
+	# Nullable Int64 (from in-memory merge) breaks rolling — cast to float64.
+	team_history["opponent_rank"] = pd.to_numeric(team_history["opponent_rank"], errors="coerce")
 	team_history = team_history.sort_values(["team", "date", "match_id"]).reset_index(drop=True)
 
 	team_history["win"] = (team_history["gf"] > team_history["ga"]).astype(float)
@@ -215,6 +217,32 @@ def _merge_team_rankings(
 		merged_parts.append(merged_team)
 
 	return pd.concat(merged_parts, ignore_index=True)
+
+
+def get_current_team_states(processed_df: pd.DataFrame) -> dict:
+	"""Return each team's latest rank and form snapshot from the processed match data.
+
+	Iterates chronologically so the last appearance of each team (as home or away)
+	overwrites earlier entries, leaving the most recent state in the dict.
+	"""
+	df = add_recent_form_features(processed_df, window=5)
+	df = df.sort_values("date")
+
+	states: dict = {}
+	for _, row in df.iterrows():
+		for team, prefix in [(row["home_team"], "home"), (row["away_team"], "away")]:
+			states[team] = {
+				"rank": row[f"{prefix}_rank"],
+				"ranking_points": row[f"{prefix}_ranking_points"],
+				"recent_wins_5": row[f"{prefix}_recent_wins_5"],
+				"recent_draws_5": row[f"{prefix}_recent_draws_5"],
+				"recent_losses_5": row[f"{prefix}_recent_losses_5"],
+				"recent_goals_for_5": row[f"{prefix}_recent_goals_for_5"],
+				"recent_goals_against_5": row[f"{prefix}_recent_goals_against_5"],
+				"recent_opp_rank_avg_5": row[f"{prefix}_recent_opp_rank_avg_5"],
+				"recent_form_points": row[f"{prefix}_recent_form_points"],
+			}
+	return states
 
 
 def build_merged_dataset(output_path: Path | None = None) -> pd.DataFrame:
