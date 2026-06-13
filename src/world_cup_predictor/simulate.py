@@ -14,6 +14,18 @@ GROUPS_PATH   = PROJECT_ROOT / "data" / "raw" / "wc2026_groups.json"
 PROCESSED_PATH = PROJECT_ROOT / "data" / "processed" / "matches_with_rankings.csv"
 
 
+
+# Temperature < 1 sharpens match probabilities (pushes them away from 50/50).
+# At T=1.0 the raw model outputs are used unchanged.
+# At T=0.6 Spain vs Iran goes from ~55% to ~72%, giving top teams more realistic odds.
+TEMPERATURE = 0.6
+
+
+def _softmax(x: np.ndarray) -> np.ndarray:
+    e = np.exp(x - x.max())
+    return e / e.sum()
+
+
 # Scoreline weights derived from FIFA World Cup / major tournament data.
 _HOME_WIN_SCORELINES = [(1,0),(2,1),(2,0),(3,0),(3,1),(3,2),(4,1),(4,0)]
 _HOME_WIN_WEIGHTS    = [0.261, 0.176, 0.157, 0.118, 0.118, 0.046, 0.039, 0.026]
@@ -79,7 +91,7 @@ class FastPredictor:
 
     _N_NUMERIC = 22  # number of numeric features
 
-    def __init__(self, pipeline):
+    def __init__(self, pipeline, temperature: float = TEMPERATURE):
         pre = pipeline.named_steps["preprocessor"]
         num = pre.named_transformers_["num"]
         cat = pre.named_transformers_["cat"]
@@ -88,6 +100,7 @@ class FastPredictor:
         self._scaler_mean     = num.named_steps["scaler"].mean_.copy()
         self._scaler_scale    = num.named_steps["scaler"].scale_.copy()
         self._model           = pipeline.named_steps["model"]
+        self._temperature     = temperature
 
         # Pre-compute the one-hot vector for "FIFA World Cup" (constant for all WC matches)
         cat_out = cat.transform([["FIFA World Cup"]])
@@ -97,7 +110,7 @@ class FastPredictor:
         self._X = np.empty((1, self._N_NUMERIC + len(cat_arr)), dtype=np.float64)
         self._X[0, self._N_NUMERIC:] = cat_arr  # cat part never changes
 
-    def predict_proba(self, home: dict, away: dict) -> np.ndarray:
+    def predict_proba(self, home: dict, away: dict, neutral: float = 1.0) -> np.ndarray:
         """Return (p_home_win, p_draw, p_away_win) as a float array."""
         h_rank = home.get("rank")
         a_rank = away.get("rank")
@@ -113,7 +126,7 @@ class FastPredictor:
         buf[2]  = rank_diff
         buf[3]  = h_miss
         buf[4]  = a_miss
-        buf[5]  = 1.0  # neutral
+        buf[5]  = neutral
         buf[6]  = 5.0  # tournament_importance
         buf[7]  = home.get("recent_wins_5",          0.0)
         buf[8]  = home.get("recent_draws_5",         0.0)
@@ -138,7 +151,8 @@ class FastPredictor:
         num -= self._scaler_mean
         num /= self._scaler_scale
 
-        return self._model.predict_proba(self._X)[0]
+        logits = self._model.decision_function(self._X)[0]
+        return _softmax(logits / self._temperature)
 
 
 def predict_match(
@@ -161,7 +175,7 @@ def predict_match(
     away = team_states.get(away_team, {})
 
     if fast is not None:
-        proba = fast.predict_proba(home, away)
+        proba = fast.predict_proba(home, away, neutral=float(neutral))
         return {
             "p_home_win": float(proba[0]),
             "p_draw":     float(proba[1]),
@@ -208,7 +222,10 @@ def predict_match(
         "tournament": tournament,
     }
 
-    proba = pipeline.predict_proba(pd.DataFrame([row])[FEATURE_COLS])[0]
+    X = pd.DataFrame([row])[FEATURE_COLS]
+    X_pre = pipeline.named_steps["preprocessor"].transform(X)
+    logits = pipeline.named_steps["model"].decision_function(X_pre)[0]
+    proba = _softmax(logits / TEMPERATURE)
 
     return {
         "p_home_win": float(proba[0]),
@@ -471,6 +488,7 @@ def monte_carlo(
     processed_path: Path = PROCESSED_PATH,
     model_path: Path = MODEL_PATH,
     bracket_path: Path = BRACKET_PATH,
+    output_path: Path | None = None,
 ) -> pd.DataFrame:
     """Run the tournament n times and return win-probability estimates.
 
@@ -545,11 +563,18 @@ def monte_carlo(
             "quarter_final_pct":round(c["quarter_final"] / n * 100, 2),
         })
 
-    return (
+    result_df = (
         pd.DataFrame(rows)
         .sort_values("champion_pct", ascending=False)
         .reset_index(drop=True)
     )
+
+    if output_path is not None:
+        output_path = Path(output_path)
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        result_df.to_csv(output_path, index=False)
+
+    return result_df
 
 
 if __name__ == "__main__":
